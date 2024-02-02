@@ -93,6 +93,9 @@ const Login = () => {
           >
             Submit
           </Button>
+           <h2 style={{marginTop:'4%',color:"red",textAlign:'center'}}>DEMO LOGIN Id</h2>
+                <h2 style={{marginTop:'4%'}}>Email - user123@gmail.com</h2>
+                <h2>Password - 12345</h2>
           <Button
             onClick={() => navigate("/register")}
             sx={{ borderRadius: 3, marginTop: 3,color:"black" }}
